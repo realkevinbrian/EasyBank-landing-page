@@ -24,10 +24,14 @@ export const BannerContentWrapper = styled.div`
     display: flex;
     flex-direction: column;
     font-size: 2rem;
+    color: ${({ theme }) => theme.Colors.DarkBlue};
+
   }
 
   p {
     padding-right: 9rem;
+    color: ${({ theme }) => theme.Colors.GrayishBlue};
+  
   }
 
   button {

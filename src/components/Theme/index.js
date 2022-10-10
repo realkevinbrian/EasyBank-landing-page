@@ -1,3 +1,5 @@
+import { createGlobalStyle } from "styled-components";
+
 const theme = {
   Layout: {
     Mobile: "375px",
@@ -18,3 +20,10 @@ const theme = {
   fontBolder: 700,
 };
 export default theme;
+
+
+export const GlobalTheme = createGlobalStyle`
+border: 1px solid red;
+background-color: red;
+
+`
