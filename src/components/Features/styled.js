@@ -11,6 +11,13 @@ export const FeaturesContainer = styled.section`
     display: flex;
     flex-direction: column;
   }
+
+  //mobile
+  @media (max-width: 375px) {
+    padding: 2rem 2rem;
+    place-items: center;
+    text-align: center;
+  }
 `;
 export const FeaturesWrapper = styled.div`
   display: grid;
@@ -33,5 +40,10 @@ export const FeatureCardWrapper = styled.div`
   }
   p {
     color: ${({ theme }) => theme.Colors.GrayishBlue};
+  }
+
+  //mobile
+  @media (max-width: 375px) {
+    place-items: center;
   }
 `;

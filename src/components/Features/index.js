@@ -5,7 +5,7 @@ import FeatureCard from "./FeatureCard";
 
 function index() {
   return (
-    <FeaturesContainer>
+    <FeaturesContainer className="sectionWrapper">
       <h2>Why choose Easybank?</h2>
       <p id="subtitle">
         <span>
