@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/realkevinbrian/EasyBank-landing-page)
-- Live Site URL: [Add live site URL here](https://easybanking-app.vercel.app/)
+- Solution URL: [easybank-github](https://github.com/realkevinbrian/EasyBank-landing-page)
+- Live Site URL: [easybank.app](https://easybanking-app.vercel.app/)
 
 ## My process
 
