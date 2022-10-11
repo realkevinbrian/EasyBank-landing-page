@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 const theme = {
   Layout: {
@@ -21,9 +21,14 @@ const theme = {
 };
 export default theme;
 
-
 export const GlobalTheme = createGlobalStyle`
 border: 1px solid red;
 background-color: red;
 
-`
+`;
+
+// export const SectionWrapper = styled.section`
+//   padding: 1rem 6rem;
+//   padding-top: 5rem;
+//   padding-bottom: 5rem;
+// `;

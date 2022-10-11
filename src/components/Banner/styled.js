@@ -12,8 +12,12 @@ export const BannerWrapper = styled.section`
   background-size: 1100px;
   background-position-x: 550px;
   background-position-y: -190px;
+
+  @media (max-width: 375px) {
+    
+  }
 `;
-export const BannerContentWrapper = styled.div` 
+export const BannerContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   padding: 10rem 0rem;
@@ -25,13 +29,11 @@ export const BannerContentWrapper = styled.div`
     flex-direction: column;
     font-size: 2rem;
     color: ${({ theme }) => theme.Colors.DarkBlue};
-
   }
 
   p {
     padding-right: 9rem;
     color: ${({ theme }) => theme.Colors.GrayishBlue};
-  
   }
 
   button {

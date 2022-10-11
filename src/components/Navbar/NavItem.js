@@ -1,7 +1,8 @@
 import React from "react";
+import { PrimaryButton } from "../Button";
 import { NavbarItemWrapper } from "./styled";
 
-function NavItem() {
+function NavItem({ status }) {
   const links = [
     { title: "Home" },
     { title: "About" },
@@ -10,12 +11,17 @@ function NavItem() {
     { title: "Careers" },
   ];
   return (
-    <NavbarItemWrapper>
-      {links.map((item) => (
-        <a href={item.title} key={item.title}>
-          {item.title}
-        </a>
-      ))}
+    <NavbarItemWrapper
+      className={`${status ? "MobileMenuOpen" : "MobileMenuClose"}`}
+    >
+      <div>
+        {links.map((item) => (
+          <a href={item.title} key={item.title}>
+            {item.title}
+          </a>
+        ))}
+      </div>
+      <PrimaryButton title={"Request Invite"} />
     </NavbarItemWrapper>
   );
 }

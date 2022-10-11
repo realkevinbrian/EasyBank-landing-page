@@ -5,7 +5,7 @@ import { BannerWrapper } from "./styled";
 
 function index() {
   return (
-    <BannerWrapper>
+    <BannerWrapper className="sectionWrapper">
       <Content />
       <Graphics />
     </BannerWrapper>
