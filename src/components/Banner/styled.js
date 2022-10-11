@@ -14,7 +14,16 @@ export const BannerWrapper = styled.section`
   background-position-y: -190px;
 
   @media (max-width: 375px) {
-    
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    background-color: ${({ theme }) => theme.Colors.VeryLightGray};
+    background-image: initial;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 4rem;
   }
 `;
 export const BannerContentWrapper = styled.div`
@@ -39,6 +48,24 @@ export const BannerContentWrapper = styled.div`
   button {
     align-self: flex-start;
   }
+
+  @media (max-width: 375px) {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    gap: 20px;
+    place-content: center;
+    place-items: center;
+    text-align: center;
+
+    p {
+      padding: 0 2rem;
+    }
+
+    button {
+      align-self: center;
+    }
+  }
 `;
 export const BannerGraphicsWrapper = styled.div`
   position: relative;
@@ -48,5 +75,24 @@ export const BannerGraphicsWrapper = styled.div`
     position: absolute;
     top: 0;
     left: 0;
+  }
+
+  @media (max-width: 375px) {
+    position: relative;
+    display: flex;
+    place-items: center;
+    place-content: center;
+    background-image: url(${Mobilebg});
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    img {
+      width: 250px;
+      max-width: 100%;
+      position: initial;
+      top: 0;
+      left: 0;
+    }
   }
 `;
