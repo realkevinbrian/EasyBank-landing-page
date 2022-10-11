@@ -12,8 +12,8 @@ function App() {
       <Navbar />
       <Banner />
       <Features/>
-      {/* <Articles/> */}
-      {/* <Footer/> */}
+      <Articles/>
+      <Footer/>
     </Container>
   );
 }

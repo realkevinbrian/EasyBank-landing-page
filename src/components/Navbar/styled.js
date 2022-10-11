@@ -53,7 +53,7 @@ export const NavbarItemWrapper = styled.div`
   }
 
   @media (max-width: 375px) {
-    position: absolute;
+    position: fixed;
     z-index: 10;
     display: flex;
     flex-direction: column;
@@ -75,7 +75,7 @@ export const NavbarItemWrapper = styled.div`
       align-items: center;
       place-content: center;
       width: 90%;
-      margin-top: 4rem;
+      margin-top: -15rem;
       padding: 1rem 0;
       gap: 15px;
       border-radius: 5px;

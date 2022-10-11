@@ -10,6 +10,11 @@ export const FooterContainer = styled.section`
   place-content: center;
   place-items: center;
 
+  //Mobile
+  @media (max-width: 375px) {
+    flex-direction: column;
+    padding: 2rem;
+  }
 
   div {
     display: flex;
@@ -43,6 +48,12 @@ export const FooterContainer = styled.section`
     grid-template-columns: 1fr 1fr;
     place-content: center;
     color: ${({ theme }) => theme.Colors.VeryLightGray};
+
+    //Mobile
+    @media (max-width: 375px) {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
   }
 
   .box3 {

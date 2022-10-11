@@ -7,7 +7,7 @@ import post3 from "../../Assets/images/image-plane.jpg";
 
 function Articles() {
   return (
-    <ArticlesContainer>
+    <ArticlesContainer className="sectionWrapper">
       <h2>Latest Articles</h2>
       <ArticlesWrapper>
         {!posts && <h3>Loading</h3>}

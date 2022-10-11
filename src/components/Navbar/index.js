@@ -4,7 +4,6 @@ import logo from "../../Assets/images/logo.svg";
 import NavItem from "./NavItem";
 import menuIcon from "../../Assets/images/icon-hamburger.svg";
 import CloseIcon from "../../Assets/images/icon-close.svg";
-import { SectionWrapper } from "../Theme";
 
 function Navbar() {
   const [open, setOpen] = useState(false);

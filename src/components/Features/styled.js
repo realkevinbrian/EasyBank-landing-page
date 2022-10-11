@@ -14,7 +14,7 @@ export const FeaturesContainer = styled.section`
 
   //mobile
   @media (max-width: 375px) {
-    padding: 2rem 2rem;
+    padding: 2rem;
     place-items: center;
     text-align: center;
   }

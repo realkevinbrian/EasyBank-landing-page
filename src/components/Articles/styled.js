@@ -4,6 +4,12 @@ export const ArticlesContainer = styled.section`
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  //Mobile
+  @media (max-width: 375px) {
+    padding: 2rem;
+    align-items: center;
+  }
 `;
 export const ArticlesWrapper = styled.div`
   display: grid;
@@ -18,11 +24,19 @@ export const ArticleCardWrapper = styled.div`
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     max-width: 100%;
+    width: 100%;
     height: 250px;
     object-fit: cover;
   }
   background: white;
   box-shadow: 1px 3px 30px #f0f0f0;
+  
+  //Mobile
+  @media (max-width: 375px) {
+    img {
+      height: 200px;
+    }
+  }
 `;
 export const ArticleCardBody = styled.div`
   padding: 1rem;
