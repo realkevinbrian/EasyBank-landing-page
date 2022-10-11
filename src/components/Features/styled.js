@@ -13,7 +13,7 @@ export const FeaturesContainer = styled.section`
   }
 
   //mobile
-  @media (max-width: 375px) {
+  @media (max-width: 600px) {
     padding: 2rem;
     place-items: center;
     text-align: center;
@@ -43,7 +43,7 @@ export const FeatureCardWrapper = styled.div`
   }
 
   //mobile
-  @media (max-width: 375px) {
+  @media (max-width: 600px) {
     place-items: center;
   }
 `;

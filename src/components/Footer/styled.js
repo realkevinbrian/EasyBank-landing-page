@@ -11,7 +11,7 @@ export const FooterContainer = styled.section`
   place-items: center;
 
   //Mobile
-  @media (max-width: 375px) {
+  @media (max-width: 600px) {
     flex-direction: column;
     padding: 2rem;
   }
@@ -50,7 +50,7 @@ export const FooterContainer = styled.section`
     color: ${({ theme }) => theme.Colors.VeryLightGray};
 
     //Mobile
-    @media (max-width: 375px) {
+    @media (max-width: 600px) {
       grid-template-columns: 1fr;
       text-align: center;
     }

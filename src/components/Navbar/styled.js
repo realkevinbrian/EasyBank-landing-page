@@ -11,7 +11,7 @@ export const NavbarWrapper = styled.section`
     display: none;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 600px) {
     position: relative;
     padding: 15px;
     .statusBtn.open {
@@ -32,7 +32,7 @@ export const NavbarLogo = styled.div`
   flex-direction: column;
   align-items: center;
 
-  @media (max-width: 375px) {
+  @media (max-width: 600px) {
     /* display: none; */
   }
 `;
@@ -52,7 +52,7 @@ export const NavbarItemWrapper = styled.div`
     color: ${({ theme }) => theme.Colors.GrayishBlue};
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 600px) {
     position: fixed;
     z-index: 10;
     display: flex;

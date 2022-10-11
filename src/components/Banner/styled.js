@@ -13,7 +13,7 @@ export const BannerWrapper = styled.section`
   background-position-x: 550px;
   background-position-y: -190px;
 
-  @media (max-width: 375px) {
+  @media (max-width: 600px) {
     padding: 0;
     display: flex;
     flex-direction: column-reverse;
@@ -49,7 +49,7 @@ export const BannerContentWrapper = styled.div`
     align-self: flex-start;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 600px) {
     display: flex;
     flex-direction: column;
     padding: 0rem;
@@ -77,7 +77,7 @@ export const BannerGraphicsWrapper = styled.div`
     left: 0;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 600px) {
     position: relative;
     display: flex;
     place-items: center;

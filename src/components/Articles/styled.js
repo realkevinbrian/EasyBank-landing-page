@@ -6,7 +6,7 @@ export const ArticlesContainer = styled.section`
   gap: 30px;
 
   //Mobile
-  @media (max-width: 375px) {
+  @media (max-width: 600px) {
     padding: 2rem;
     align-items: center;
   }
@@ -32,7 +32,7 @@ export const ArticleCardWrapper = styled.div`
   box-shadow: 1px 3px 30px #f0f0f0;
   
   //Mobile
-  @media (max-width: 375px) {
+  @media (max-width: 600px) {
     img {
       height: 200px;
     }
