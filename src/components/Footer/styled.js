@@ -24,7 +24,7 @@ export const FooterContainer = styled.section`
       width: 200px;
       filter: invert(1);
     }
-    #socialMedia {
+    .socialMedia {
       width: 25px;
       max-width: 100%;
     }
