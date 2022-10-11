@@ -25,7 +25,7 @@ function Footer() {
         <img id="logo" src={logo} alt="logo" />
         <div>
           {socialMediaLinks.map((item) => (
-            <img id="socialMedia" src={item} alt="logo" />
+            <img id="socialMedia" src={item} alt="logo" key={item} />
           ))}
         </div>
       </div>
