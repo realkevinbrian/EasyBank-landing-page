@@ -32,7 +32,7 @@ function Footer() {
 
       <div className="box2">
         {Links.map((item) => (
-          <a href={item} key={item}>
+          <a href={"/"} key={item}>
             {item}
           </a>
         ))}
