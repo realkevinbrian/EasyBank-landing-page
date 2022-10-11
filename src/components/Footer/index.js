@@ -20,12 +20,12 @@ function Footer() {
   ];
 
   return (
-    <FooterContainer>
+    <FooterContainer className="sectionWrapper">
       <div className="box1">
         <img id="logo" src={logo} alt="logo" />
         <div>
-          {socialMediaLinks.map((item) => (
-            <img id="socialMedia" src={item} alt="logo" key={item} />
+          {socialMediaLinks.map((item, index) => (
+            <img id="socialMedia" src={item} alt="logo" key={index} />
           ))}
         </div>
       </div>
