@@ -4,8 +4,6 @@ export const FeaturesContainer = styled.section`
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
   background-color: ${({ theme }) => theme.Colors.LightGrayishBlue};
 
   #subtitle {
