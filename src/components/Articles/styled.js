@@ -18,6 +18,8 @@ export const ArticleCardWrapper = styled.div`
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     max-width: 100%;
+    height: 250px;
+    object-fit: cover;
   }
   background: white;
   box-shadow: 1px 3px 30px #f0f0f0;
