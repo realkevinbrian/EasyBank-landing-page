@@ -29,7 +29,7 @@ export const BannerWrapper = styled.section`
 export const BannerContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 10rem 0rem;
+  padding: 4rem 0rem;
   gap: 20px;
 
   h1 {
